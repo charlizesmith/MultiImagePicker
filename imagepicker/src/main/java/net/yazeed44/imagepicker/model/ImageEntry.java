@@ -37,9 +37,11 @@ public class ImageEntry implements Serializable {
 
     @Override
     public String toString() {
-        return "ImageEntry{" +
-                "path='" + path + '\'' +
-                '}';
+//         return "ImageEntry{" +
+//                 "path='" + path + '\'' +
+//                 '}';
+        
+        return path;
     }
 
     public static class Builder {
